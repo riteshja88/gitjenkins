@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
+int nomain()
 {
 	char *c = malloc(100);
 	printf("Hello");
-	free(c);
+	//	free(c);
 	return 0;
 }
