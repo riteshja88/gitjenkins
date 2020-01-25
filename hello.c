@@ -4,6 +4,6 @@ int nomain()
 {
 	char *c = malloc(100);
 	printf("Hello");
-	//	free(c);
+	free(c);
 	return 0;
 }
