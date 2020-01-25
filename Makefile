@@ -1,4 +1,5 @@
 all:
 	echo "Makefile was triggered"
-	gcc hello.c
+	$(CC)  -c hello.c
+
 
