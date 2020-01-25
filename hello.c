@@ -3,7 +3,7 @@
 int nomain()
 {
 	char *c = malloc(100);
+	char *d = malloc(100);	
 	printf("Hello");
-	free(c);
 	return 0;
 }
